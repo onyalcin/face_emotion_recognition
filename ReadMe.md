@@ -19,14 +19,14 @@ The system is tested for:
 ### Installing
 The package and dependencies can be installed via pip with:
 ```
-pip install git+https://github.com/o-n-yalcin/fer
+pip install git+https://github.com/o-n-yalcin/face_emotion_recognition
 ```
 
 Or clone the project and:
 
 ```
-$ git clone --recurse-submodules https://github.com/o-n-yalcin/fer.git
-$ pip install -e /face_emotion_recognition
+$ git clone https://github.com/o-n-yalcin/face_emotion_recognition.git
+$ pip install -e ./face_emotion_recognition
 ```
 
 You can start using the recognizer. You only need to pass a frame for the recognizer to do its job:
